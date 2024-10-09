@@ -6,30 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
         div.container {
             display: flex;
             flex-direction: row;
         }
-        div.purpura {
+        div.hero {
             background-color: rgb(149, 149, 255);
-            width: 30px;
-            height: 30px;
-            margin: 5px;
-            padding: 5px;
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
             
-        }
-        div#czerwone {
-            background-color: red;
         }
     </style>
 </head>
 <body>
-    <h1>noway</h1>
     <div class="container">
-        <div class="purpura">1</div>
-        <div class="purpura">2</div>
-        <div class="purpura" id="czerwone">3</div>
-        <div class="purpura">4</div>
+        <div class="hero">            
+            <img src="hero.png" alt="Skarpety hero">
+        </div>
     </div>
 </body>
 </html>
